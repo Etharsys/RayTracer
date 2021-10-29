@@ -1,0 +1,1 @@
+/usr/bin/g++-9  -g  -rdynamic CMakeFiles/RayTracer.dir/src/ray_tracer.cpp.o CMakeFiles/RayTracer.dir/src/Object.cpp.o CMakeFiles/RayTracer.dir/src/Scene.cpp.o  -o RayTracer   -L/usr/local/lib  -Wl,-rpath,/usr/local/lib -lg3x.6c.64b++ -lGL -lglut -lGL -lglut -lGL -lGLU -lGL -lglut -lGLU 

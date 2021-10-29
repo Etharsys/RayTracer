@@ -1,0 +1,201 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "RayTracer"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"target_compile_options"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 8,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 32,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g  "
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-Wextra"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-Werror"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-Wshadow"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-L/usr/lib"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-lm"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-lGL"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-lGLU"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-lglut"
+				},
+				{
+					"fragment" : "-std=gnu++17"
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2
+			]
+		}
+	],
+	"id" : "RayTracer::@6890427a1f51a3e7e1df",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-g",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-rdynamic",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-L/usr/local/lib",
+				"role" : "libraryPath"
+			},
+			{
+				"fragment" : "-Wl,-rpath,/usr/local/lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lg3x.6c.64b++",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lGL",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lglut",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lGL",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lglut",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lGL",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lGLU",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lGL",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lglut",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lGLU",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "RayTracer",
+	"nameOnDisk" : "RayTracer",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/ray_tracer.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/Object.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/Scene.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}
